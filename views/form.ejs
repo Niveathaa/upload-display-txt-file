@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<h3>SELECT THE FILE TO UPLOAD</h3>
+
+
+
+
+<div class="form-content">
+<form action="/form" method="POST" enctype="multipart/form-data">
+    
+    <input type="file" name="uploadfile">
+    
+    <button type="submit">GO!!</button>
+    
+</form>
+</div><%- include('partials/footer') %>
